@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5b833">
+  <title>奶蛙表情包隐私政策</title>
+  <meta name="description" content="奶蛙表情包（com.naiwa.appname）隐私政策">
+  <style>
+    :root {
+      --yellow: #f5b833;
+      --ink: #201d18;
+      --muted: #68645e;
+      --canvas: #f7f7f7;
+      --line: #dedbd5;
+      --surface: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--canvas);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "HarmonyOS Sans SC", "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      letter-spacing: 0;
+    }
+
+    header {
+      background: var(--yellow);
+      border-bottom: 1px solid rgba(32, 29, 24, 0.18);
+    }
+
+    header .inner,
+    main,
+    footer {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    header .inner { padding: 44px 0 38px; }
+
+    h1 {
+      margin: 0 0 6px;
+      font-size: clamp(30px, 7vw, 44px);
+      line-height: 1.2;
+      font-weight: 800;
+    }
+
+    .subtitle { margin: 0; font-weight: 650; }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 18px;
+      margin-top: 20px;
+      color: rgba(32, 29, 24, 0.76);
+      font-size: 14px;
+    }
+
+    main { padding: 32px 0 48px; }
+
+    .summary {
+      margin: 0 0 32px;
+      padding: 18px 20px;
+      background: var(--surface);
+      border-left: 5px solid var(--yellow);
+      border-radius: 8px;
+      font-weight: 650;
+    }
+
+    section {
+      padding: 24px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    section:first-of-type { border-top: 0; padding-top: 0; }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+      line-height: 1.35;
+    }
+
+    p { margin: 10px 0; }
+
+    ul { margin: 10px 0; padding-left: 22px; }
+    li + li { margin-top: 8px; }
+
+    code {
+      padding: 2px 6px;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      background: var(--surface);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.9em;
+    }
+
+    a { color: #73510a; font-weight: 650; }
+    a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 3px; }
+
+    footer {
+      padding: 24px 0 40px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 480px) {
+      header .inner { padding: 34px 0 30px; }
+      main { padding-top: 24px; }
+      .summary { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <h1>奶蛙表情包隐私政策</h1>
+      <p class="subtitle">尊重隐私，不注册账号，不接入广告</p>
+      <div class="meta">
+        <span>应用包名：<code>com.naiwa.appname</code></span>
+        <span>生效日期：2026 年 11 月 19 日</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <p class="summary">奶蛙表情包不会收集、上传、出售或共享您的个人信息。表情素材随应用离线提供；收藏、最近使用记录和分享次数仅保存在您的设备本地。</p>
+
+    <section>
+      <h2>1. 适用范围</h2>
+      <p>本政策适用于 HarmonyOS 应用“奶蛙表情包”（以下简称“本应用”）。使用本应用即表示您已了解本政策所述的数据处理方式。</p>
+    </section>
+
+    <section>
+      <h2>2. 我们不收集的信息</h2>
+      <p>本应用不要求注册或登录，不收集姓名、手机号、电子邮箱、身份证件、精确位置、通讯录、相册内容、设备标识、支付信息或行为分析数据，也未接入广告、统计或用户画像 SDK。</p>
+    </section>
+
+    <section>
+      <h2>3. 仅保存在设备本地的数据</h2>
+      <p>为实现基本功能，本应用会在设备本地保存以下设置：</p>
+      <ul>
+        <li>已收藏的表情编号；</li>
+        <li>最近使用的表情编号；</li>
+        <li>每日剩余分享次数及奖励领取状态；</li>
+        <li>用于判断每日次数重置的本地日期。</li>
+      </ul>
+      <p>这些数据不会由本应用上传至开发者服务器。卸载本应用或在系统设置中清除应用数据后，相关本地记录将被删除。</p>
+    </section>
+
+    <section>
+      <h2>4. 表情素材与缓存</h2>
+      <p>本应用的表情素材全部内置并可离线浏览。发起分享时，本应用会将所选表情临时写入应用私有缓存目录，以便交给 HarmonyOS 系统分享面板。缓存文件不用于识别用户，也不会由本应用上传至开发者服务器，系统或用户可随时清理缓存。</p>
+    </section>
+
+    <section>
+      <h2>5. 系统分享与第三方应用</h2>
+      <p>点击表情后，本应用调用 HarmonyOS 系统分享面板。只有在您主动选择目标应用并确认分享后，所选表情才会交给对应应用处理。目标应用对数据的处理受其自身隐私政策约束，本应用无法控制第三方应用的后续行为。</p>
+    </section>
+
+    <section>
+      <h2>6. 应用评分</h2>
+      <p>当您主动点击“给个评分”时，本应用可能调用华为应用市场提供的系统评分组件。评分操作由应用市场处理，本应用不会读取您的评分账号或评分内容。</p>
+    </section>
+
+    <section>
+      <h2>7. 权限说明</h2>
+      <p>本应用当前不申请通讯录、相机、麦克风、定位、相册或存储等敏感系统权限。系统分享面板及目标应用可能根据其功能另行请求权限，该请求不由本应用发起或控制。</p>
+    </section>
+
+    <section>
+      <h2>8. 儿童隐私</h2>
+      <p>本应用不会主动收集任何用户的个人信息，也不会针对儿童投放广告。监护人如对儿童使用本应用有疑问，可通过下方联系方式与我们联系。</p>
+    </section>
+
+    <section>
+      <h2>9. 政策更新</h2>
+      <p>若功能或数据处理方式发生变化，我们会更新本页面并修改生效日期。涉及个人信息处理的重大变更，将在应用内或发布渠道中以适当方式提示。</p>
+    </section>
+
+    <section>
+      <h2>10. 联系我们</h2>
+      <p>如对本政策、隐私保护或数据删除有任何问题，请通过 <a href="https://github.com/laoheigaoji/naiwa-privacy/issues">GitHub Issues</a> 联系开发者。我们会在合理期限内处理。</p>
+    </section>
+  </main>
+
+  <footer>奶蛙表情包 · HarmonyOS · 隐私政策</footer>
+</body>
+</html>
